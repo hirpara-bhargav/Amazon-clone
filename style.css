@@ -58,7 +58,7 @@
 .nav-search{
     display: flex;
     background-color: white;
-    width: 620px;
+    width: 950px;
     height: 40px;
     border-radius: 4px;
     justify-content: space-evenly;
@@ -110,4 +110,31 @@ span{
 .nav-cart{
     font-size: 0.85rem;
     font-weight: 700; 
+}
+
+/** panel**/
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.panel-ops{
+    width: 80%;
+    font-size: 0.86rem;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
 }
