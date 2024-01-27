@@ -166,3 +166,29 @@ span{
 .hero-msg a{
     color: #007185;
 }
+
+/** box section **/
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box{
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    
+}
+
+.box-img{
+    height: 300px;
+}
+
+.box-content{
+    margin-left: 20px;
+    margin-right: 20px;
+}
